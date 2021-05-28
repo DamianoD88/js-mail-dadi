@@ -2,9 +2,9 @@
 // sia per il giocatore sia per il computer. 
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
-var giocatore = Math.floor(Math.random() * 7);
+var giocatore = Math.floor(Math.random() * 6 + 1);
 
-var computer = Math.floor(Math.random() * 7);
+var computer = Math.floor(Math.random() * 6 + 1);
 
 console.log('giocatore' + giocatore);
 
