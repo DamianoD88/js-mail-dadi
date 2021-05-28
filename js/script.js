@@ -6,11 +6,21 @@ var giocatore = Math.floor(Math.random() * 7);
 
 var computer = Math.floor(Math.random() * 7);
 
-console.log('giocatore');
+console.log('giocatore' + giocatore);
 
-console.log('computer');
+console.log('computer' + computer);
 
-if () {
+if (giocatore > computer) {
     
+    alert('vince giocatore');
+
+} else if (computer > giocatore) {
+
+    alert('vince computer');
+
+} else {
+
+    alert('pareggio');
+
 }
 
